@@ -70,7 +70,7 @@ A simple REST API to perform CRUD operations on a list of books. This API uses i
 - **Response:**  
   Returns the created book object.
 
-![POST Book Screenshot](post.png)
+![POST Book Screenshot](screenshots/post.png)
 
 --- 
 
@@ -84,7 +84,7 @@ A simple REST API to perform CRUD operations on a list of books. This API uses i
 - **Response:**  
   Returns an array of all books.
 
-![GET Books Screenshot](get.png)
+![GET Books Screenshot](screenshots/get.png)
 
 ---
 ### 3. **PUT (Update) a book**
@@ -102,12 +102,12 @@ A simple REST API to perform CRUD operations on a list of books. This API uses i
 - **Response:**  
   Returns the updated book object.
 
-![PUT Book Screenshot](put1.png)
+![PUT Book Screenshot](screenshots/put1.png)
 
 - **Verify Update:**  
   Send a `GET` request to `/books` to confirm the update.
 
-![GET after PUT Screenshot](put2.png)
+![GET after PUT Screenshot](screenshots/put2.png)
 
 ---
 
@@ -119,12 +119,12 @@ A simple REST API to perform CRUD operations on a list of books. This API uses i
 - **Response:**  
   Returns a message confirming deletion.
 
-![DELETE Book Screenshot](delete1.png)
+![DELETE Book Screenshot](screenshots/delete1.png)
 
 - **Verify Deletion:**  
   Send a `GET` request to `/books` to confirm the book is removed.
 
-![GET after DELETE Screenshot](delete2.png)
+![GET after DELETE Screenshot](screenshots/delete2.png)
 
 ---
 
